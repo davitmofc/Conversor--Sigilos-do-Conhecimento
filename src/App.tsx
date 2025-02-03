@@ -91,7 +91,7 @@ function MainComponent() {
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4">
       <div className="w-full max-w-2xl bg-white rounded-lg shadow-lg p-8">
         <h1 className="text-3xl font-roboto mb-6 text-center text-gray-800">
-          Conversor de Texto para Alfabeto Ocultista
+          Conversor de Texto para Sigilos do Conhecimento
         </h1>
 
         <div className="space-y-6">
