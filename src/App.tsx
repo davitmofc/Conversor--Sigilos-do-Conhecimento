@@ -103,7 +103,7 @@ function MainComponent() {
             <textarea
               onChange={handleInput}
               value={text}
-              rows="1"
+              rows={1}
               className="w-full p-3 border rounded resize-none overflow-hidden"
               placeholder="Digite algo..."
               onInput={(e) => {
