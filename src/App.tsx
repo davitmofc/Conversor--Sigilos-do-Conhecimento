@@ -185,7 +185,7 @@ function MainComponent() {
           {/* Botão para baixar como imagem */}
           <button
             onClick={handleDownloadImage}
-            className="mt-4 px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition"
+            className="mt-4 px-6 py-3 bg-green-500 text-white font-semibold rounded-lg shadow-md hover:bg-green-600 hover:shadow-lg active:bg-green-700 transition-all duration-200 ease-in-out disabled:opacity-50 disabled:cursor-not-allowed"
             disabled={!imagesLoaded}
           >
             {imagesLoaded ? "Baixar como Imagem" : "Carregando imagens..."}
