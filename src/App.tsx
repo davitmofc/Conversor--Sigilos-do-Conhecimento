@@ -49,7 +49,7 @@ function MainComponent() {
     return texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   }
   // Capturar input do usuário
-  const handleInput = (e) => {
+  const handleInput = (e: React.ChangeEvent<HTMLInputElement>) => {
     const textoNormalizado = removerAcentos(e.target.value.toLowerCase());
     setText(textoNormalizado);
   };
