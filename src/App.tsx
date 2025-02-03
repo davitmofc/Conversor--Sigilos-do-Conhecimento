@@ -108,7 +108,7 @@ function MainComponent() {
               placeholder="Digite algo..."
               onInput={(e) => {
               const target = e.target as HTMLTextAreaElement;
-              target.style.height = "auto"; // Reseta altura
+              target.style.height = "auto";
               target.style.height = target.scrollHeight + "px"; // Ajusta dinamicamente
               }}
             ></textarea>
