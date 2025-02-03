@@ -152,10 +152,10 @@ function MainComponent() {
                   );
                 }
 
-                return symbolMap[char] ? (
+                return symbolMap[char as keyof typeof symbolMap] ? (
                   <img
                     key={index}
-                    src={symbolMap[char]}
+                    src={symbolMap[char as keyof typeof symbolMap]}
                     alt={`Símbolo para ${char}`}
                     style={{
                       width: symbolSize,
