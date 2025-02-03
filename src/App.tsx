@@ -107,8 +107,9 @@ function MainComponent() {
               className="w-full p-3 border rounded resize-none overflow-hidden"
               placeholder="Digite algo..."
               onInput={(e) => {
-                e.target.style.height = "auto"; // Reseta altura
-                e.target.style.height = e.target.scrollHeight + "px"; // Ajusta dinamicamente
+              const target = e.target as HTMLTextAreaElement;
+              target.style.height = "auto"; // Reseta altura
+              target.style.height = target.scrollHeight + "px"; // Ajusta dinamicamente
               }}
             ></textarea>
           </div>
