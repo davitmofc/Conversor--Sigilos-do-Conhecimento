@@ -45,7 +45,7 @@ function MainComponent() {
     ";": "https://i.imgur.com/bV2h9Du.png",
   };
 
-  function removerAcentos(texto) {
+  function removerAcentos(texto: string): string {
     return texto.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   }
   // Capturar input do usuário
