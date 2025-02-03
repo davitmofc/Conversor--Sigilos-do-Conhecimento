@@ -43,7 +43,6 @@ function MainComponent() {
     "!": "https://i.imgur.com/OJWSaRq.png",
     ":": "https://i.imgur.com/DV83lyA.png",
     ";": "https://i.imgur.com/bV2h9Du.png",
-    // Adicione mais letras aqui
   };
 
   function removerAcentos(texto) {
@@ -74,9 +73,9 @@ function MainComponent() {
   const handleDownloadImage = () => {
     if (resultRef.current && imagesLoaded) {
       html2canvas(resultRef.current, {
-        backgroundColor: null, // Deixa o fundo transparente
-        useCORS: true, // Permite capturar imagens externas
-        scale: 2, // Aumenta a resolução
+        backgroundColor: null,
+        useCORS: true, 
+        scale: 2,
       }).then((canvas) => {
         const link = document.createElement("a");
         link.href = canvas.toDataURL("image/png");
