@@ -259,7 +259,7 @@ useEffect(() => {
               Esse programa está em desenvolvimento e esta é a primeira versão.
               O seu feedback é muito importante! Envie-o através da{" "}
               <a
-                href="#link-para-comentarios"
+                href="https://www.reddit.com/r/OrdemParanormalRPG/s/Upnag5rMy0"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
