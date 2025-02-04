@@ -188,8 +188,8 @@ function MainComponent() {
   style={{
     marginTop: "1rem",
     padding: "0.75rem 1.5rem",
-    backgroundColor: "#10B981", // bg-green-500
-    color: "white",
+    backgroundColor: "#F0E68C", // bg-green-500
+    color: "black",
     fontWeight: "600", // font-semibold
     borderRadius: "0.5rem", // rounded-lg
     boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", // shadow-md
