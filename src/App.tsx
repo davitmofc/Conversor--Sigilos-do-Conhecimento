@@ -213,7 +213,10 @@ function MainComponent() {
                 href="https://youtube.com/@ordemparanormal?si=GaVWZjtQsIBdPh-X"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-500 hover:underline"
+                style={{
+                  color: "#FFD700", 
+                  textDecoration: "underline",
+                }}
               >
                 Ordem Paranormal
               </a>
