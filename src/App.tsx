@@ -88,7 +88,7 @@ function MainComponent() {
   };
 
   return (
-     <div className="min-h-screen bg-[#121212] text-white p-6">
+     <div style={{ minHeight: "100vh", backgroundColor: "#121212", color: "white", padding: "24px" }}>
       <div className="max-w-2xl mx-auto">
         <h1 className="text-3xl font-roboto mb-8 text-center">
           Conversor de Texto para<span className="text-[#FFD700]"> Sigilos de Conhecimento</span>
