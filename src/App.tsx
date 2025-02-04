@@ -91,7 +91,7 @@ function MainComponent() {
      <div style={{ minHeight: "100vh", backgroundColor: "#121212", color: "white", padding: "24px" }}>
       <div className="max-w-2xl mx-auto">
         <h1 className="text-3xl font-roboto mb-8 text-center">
-          Conversor de Texto para<span className="text-[#FFD700]"> Sigilos de Conhecimento</span>
+          Conversor de Texto para<span style={{ color: 'yellow' }}> Sigilos de Conhecimento</span>
         </h1>
 
         <div className="space-y-6">
