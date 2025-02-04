@@ -238,6 +238,35 @@ function MainComponent() {
               .
             </p>
           </footer>
+<footer
+            style={{
+              position: "relative",
+              bottom: "0px",
+              width: "100%",
+              textAlign: "center",
+              fontSize: "14px",
+              color: "white",
+              marginTop: "20pc",
+              padding: "10px 0",
+            }}
+          >
+            <p>
+              Esse programa está em desenvolvimento e esta é a primeira versão.
+              O seu feedback é muito importante! Envie-o através da{" "}
+              <a
+                href="#link-para-comentarios"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  color: "#FFD700", 
+                  textDecoration: "underline",
+                }}
+              >
+                sessão de comentários do post
+              </a>{" "}
+              que você descobriu esse site.
+            </p>
+          </footer>
         </div>
       </div>
     </div>
