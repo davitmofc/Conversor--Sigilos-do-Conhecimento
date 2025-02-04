@@ -91,7 +91,7 @@ function MainComponent() {
     <div className="min-h-screen bg-[#121212] text-white p-6">
       <div className="w-full max-w-2xl bg-white rounded-lg shadow-lg p-8">
         <h1 className="text-4xl font-bold font-roboto mb-6 text-center text-gray-900 tracking-wide drop-shadow-md">
-  Conversor de Texto para <span className="text-yellow-600">Sigilos do Conhecimento</span>
+  Conversor de Texto para <span className="text-[#FFD700]">Sigilos do Conhecimento</span>
        </h1>
 
         <div className="space-y-6">
