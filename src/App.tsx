@@ -86,6 +86,11 @@ function MainComponent() {
       alert("Aguarde o carregamento das imagens antes de baixar.");
     }
   };
+useEffect(() => {
+  document.body.style.backgroundColor = "#121212";
+  document.body.style.color = "white";
+  document.documentElement.style.backgroundColor = "#121212"; // Aplica ao <html> também
+}, []);
 
   return (
      <div style={{ minHeight: "100vh", backgroundColor: "#121212", color: "white", padding: "24px" }}>
