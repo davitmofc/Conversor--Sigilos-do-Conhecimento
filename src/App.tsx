@@ -184,12 +184,24 @@ function MainComponent() {
 
           {/* Botão para baixar como imagem */}
           <button
-            onClick={handleDownloadImage}
-            className="mt-4 px-6 py-3 bg-green-500 text-white font-semibold rounded-lg shadow-md hover:bg-green-600 hover:shadow-lg active:bg-green-700 transition-all duration-200 ease-in-out disabled:opacity-50 disabled:cursor-not-allowed"
-            disabled={!imagesLoaded}
-          >
-            {imagesLoaded ? "Baixar como Imagem" : "Carregando imagens..."}
-          </button>
+  onClick={handleDownloadImage}
+  style={{
+    marginTop: "1rem",
+    padding: "0.75rem 1.5rem",
+    backgroundColor: "#10B981", // bg-green-500
+    color: "white",
+    fontWeight: "600", // font-semibold
+    borderRadius: "0.5rem", // rounded-lg
+    boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)", // shadow-md
+    transition: "all 0.2s ease-in-out", // transition-all duration-200 ease-in-out
+    cursor: imagesLoaded ? "pointer" : "not-allowed",
+    opacity: imagesLoaded ? "1" : "0.5",
+  }}
+  disabled={!imagesLoaded}
+>
+  {imagesLoaded ? "Baixar como Imagem" : "Carregando imagens..."}
+</button>
+
           <footer className="mt-8 text-center text-gray-500 text-sm">
             <p>
               Site desenvolvido por <strong>davitmofc</strong>.
