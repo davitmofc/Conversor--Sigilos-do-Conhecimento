@@ -88,7 +88,7 @@ function MainComponent() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-900 flex flex-col items-center justify-center p-4">
+    <div className={`${temaEscuro ? "bg-gray-900 text-white" : "bg-gray-100 text-black"} min-h-screen flex flex-col items-center justify-center p-4 transition-all duration-300`}>
       <div className="w-full max-w-2xl bg-white rounded-lg shadow-lg p-8">
         <h1 className="text-4xl font-bold font-roboto mb-6 text-center text-gray-900 tracking-wide drop-shadow-md">
   Conversor de Texto para <span className="text-yellow-600">Sigilos do Conhecimento</span>
