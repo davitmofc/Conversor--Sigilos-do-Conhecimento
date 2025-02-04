@@ -88,11 +88,11 @@ function MainComponent() {
   };
 
   return (
-    <div className="min-h-screen bg-[#121212] text-white p-6">
-      <div className="w-full max-w-2xl bg-white rounded-lg shadow-lg p-8">
-        <h1 className="text-4xl font-bold font-roboto mb-6 text-center text-gray-900 tracking-wide drop-shadow-md">
-  Conversor de Texto para <span className="text-[#FFD700]">Sigilos do Conhecimento</span>
-       </h1>
+     <div className="min-h-screen bg-[#121212] text-white p-6">
+      <div className="max-w-2xl mx-auto">
+        <h1 className="text-3xl font-roboto mb-8 text-center">
+          Conversor de Texto para<span className="text-[#FFD700]"> Sigilos Paranormal</span>
+        </h1>
 
         <div className="space-y-6">
           {/* Campo de entrada */}
